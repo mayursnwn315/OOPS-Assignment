@@ -1,0 +1,35 @@
+﻿1.How to Create an Object in Java?
+Ans-
+
+
+To create an object in Java, you use the new keyword followed by a constructor. Here's an example:
+java
+Copy code
+ClassName obj = new ClassName();
+
+
+2.What is the use of a Constructor in Java?
+Ans-
+A constructor is used to initialize the object. It is a special method that has the same name as the class and is invoked when an object is created.
+
+
+3.What are the different types of variables in Java?
+Ans-
+In Java, there are three types of variables: local variables, instance variables, and class (static) variables.
+
+
+4.What is the difference between Instance variables and Local variables?
+Ans-
+Instance variables are declared within a class but outside of any method, constructor, or block. They are associated with the instance of the class. Local variables are declared within a method, constructor, or block and are accessible only within that scope.
+
+
+5.In which area of memory is allocated for Instance variables and Local variables?
+Ans-
+Instance variables are stored in the heap memory, and each object gets its own copy. Local variables are stored in the stack memory and are created when the method, constructor, or block is invoked and destroyed when it completes.
+
+
+6.What is Method Overloading?
+Ans-
+
+
+Method overloading in Java allows a class to have multiple methods having the same name but different parameters. It increases the readability of the program.
